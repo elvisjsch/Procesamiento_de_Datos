@@ -22,10 +22,10 @@ Es por ello, resulta tan importante realizar un correcto  procesamiento de datos
 
 Realizar un buen procesamiento de datos es fundamental cuando se trabaja con sistemas de información. Para llevarlo a cabo de manera correcta, se deben cumplir cuatro etapas clave:
 
-1. **Captura de datos**: Es la fase en la que se recopilan los datos crudos desde diversas fuentes, como sensores, formularios, transacciones, etc. Aquí solo se busca agruparlo sin un orden especifico.
-2. **Almacenamiento**: Una vez recopilados, los datos se almacenan en bases de datos o sistemas de almacenamiento para su posterior uso.
-3. **Procesamiento**: En esta etapa, los datos se organizan, limpian y transforman para convertirlos en información útil.
-4. **Salida**: Finalmente, los datos procesados se presentan en un formato comprensible, como informes, gráficos o dashboards, para su uso en la toma de decisiones.
+1. **Captura de datos**: Es la primera etapa y la más determinante, se debe extraer la información de fuentes confiables y seguras, ya que de ello dependerá el valor de la información obtenida. Estas fuentes varían según el ámbito que donde se realiza.
+2. **Preparación de datos**: También llamada etapa de preprocesamiento, los datos recolectados son verificados minuciosamente para detectar errores. De esta forma, se organizan y se limpian los datos seleccionados que estarán en el procesamiento posterior.
+4. **Almacenamiento de datos**: Luego de preparar los datos, los datos recolectados y seleccionados serán almacenados para su inmediato o futuro uso. Estos se guardado de manera seguro para su duración en el tiempo.
+3. **Procesamiento de datos**: Aquí se realiza la tarea de interpretar los datos ingresados. Mediante el uso de diferentes técnicas y tecnologías, los datos son procesados para obtener un resultado deseado. Dependiendo las necesidades, se puede utilizar uno u otros, sin embargo, todo deben ser correctamente trabajados.
 
 ---
 
@@ -33,16 +33,20 @@ Realizar un buen procesamiento de datos es fundamental cuando se trabaja con sis
 
 Las **estructuras de datos** son formas de organizar los datos de manera eficiente para su almacenamiento, gestión y manipulación. Son fundamentales en cualquier ámbito, ya que permiten acceder, modificar y procesar datos de manera óptima según las necesidades específicas de una situación.
 
-Durante el procesamiento de datos, es esencial aplicar alguna estructura de datos para organizarlos según las necesidades. Las estructuras de datos se clasifican en dos grandes categorías:
+Estas son herramientas fundamentales, como ya se ha mencionado anteriormente, los datos sin procesar no resultan útiles. Es por ello que, durante el procesamiento de datos, debemos aplicar alguna estructura de datos, para organizarlos según sean las necesidades.
+
+Las estructuras de datos se clasifican en dos grandes categorías:
 
 ### Estructuras Lineales
 - **Arreglos**: Colecciones de elementos del mismo tipo almacenados en posiciones contiguas de memoria.
 - **Listas Enlazadas**: Secuencias de elementos enlazados mediante punteros, permitiendo una inserción y eliminación eficiente.
-- **Tablas Hash**: Estructuras que permiten un acceso rápido a los datos mediante una función hash.
+- **Pilas**: Estructura que sigue el principio LIFO (Last In, First Out). Los elementos se añaden y se retiran por el mismo extremo.
+- **Colas**: Estructura que sigue el principio FIFO (First In, First Out). Los elementos se añaden por un extremo y se retiran por el otro extremo.
 
 ### Estructuras No Lineales
-- **Árboles (Trees)**: Estructuras jerárquicas donde cada nodo tiene un valor y apunta a otros nodos (hijos).
-- **Grafos (Graphs)**: Conjuntos de nodos conectados por aristas, útiles para representar relaciones complejas.
+- **Árboles**: Estructuras jerárquicas donde cada nodo tiene un valor y apunta a otros nodos (hijos).
+- **Grafos**: Conjuntos de nodos conectados por aristas, útiles para representar relaciones complejas.
+- **Tablas Hash**: Estructuras que permiten un acceso rápido a los datos mediante una función hash.
 - **Montículos (Heaps)**: Estructuras especializadas en la gestión de prioridades, donde el elemento más importante está siempre en la raíz.
 
 ---
