@@ -51,8 +51,6 @@ Las estructuras de datos se clasifican en dos grandes categorías:
 
 ---
 
-## Conceptos Básicos Relacionados con los Datos
-
 - **Datos**: Valores crudos sin procesar. Representan la unidad más básica en el manejo de información.
 - **Archivo**: Conjunto de datos almacenados que ya han sido procesados.
 - **Información**: Datos ya procesados y organizados que adquieren un significado coherente.
@@ -66,10 +64,10 @@ El **procesamiento de transacciones** es el manejo de operaciones que manipulan 
 
 Para garantizar la confiabilidad y consistencia de las transacciones, los sistemas de procesamiento de transacciones siguen las propiedades **ACID**:
 
-- **Atomicidad**: Una transacción se completa en su totalidad o no se realiza en absoluto.
-- **Consistencia**: Las transacciones llevan la base de datos de un estado válido a otro.
-- **Aislamiento**: Las transacciones se ejecutan de manera independiente, sin interferir entre sí.
-- **Durabilidad**: Una vez completada, una transacción permanece en el sistema, incluso en caso de fallos.
+- **Atomicidad**: una transacción se completa o no se realiza en su totalidad.
+- **Consistencia**: las transacciones llevan la base de datos de un estado válido a otro.
+- **Aislamiento**: las transacciones se ejecutan de manera independiente, sin interferir entre sí.
+- **Durabilidad**: una transacción permanece en el sistema, incluso en caso de fallos y no es descartada.
 
 ---
 
@@ -85,7 +83,7 @@ Una vez que los datos han sido procesados, el procesamiento de información es l
 
 Los **sistemas de información (SI)** son conjuntos organizados de componentes interrelacionados que trabajan juntos para recopilar, procesar, almacenar y distribuir información. Su objetivo es apoyar la toma de decisiones, la coordinación, el control, el análisis y la visualización de datos en una organización o sistema. Estos sistemas combinan tecnología, procesos y personas para gestionar datos y transformarlos en información útil.
 
-Los sistemas de información tienen como objetivo mejorar el rendimiento de una organización. Al automatizar y facilitar los procesos, permiten reducir los tiempos y costos que se invierten en el desarrollo de los mismos.
+Estos sistemas de información tienen como objetivo mejorar el rendimiento de una organización. Al automatizar y facilitar los procesos, permiten reducir los tiempos y costos que se invierten en el desarrollo de los mismos.
 
 ---
 
@@ -93,15 +91,15 @@ Los sistemas de información tienen como objetivo mejorar el rendimiento de una 
 
 Los sistemas de información están compuestos por varios elementos clave:
 
-1. **Hardware**: Se refiere a todos los componentes físicos dentro de una organización, como computadoras, servidores, dispositivos móviles y equipos de red. También incluye el cableado de red y cualquier otro componente tecnológico que forme parte del sistema.
+1. **Hardware**: se refiere a todos los componentes físicos dentro de una organización, como computadoras, servidores, dispositivos móviles y equipos de red. También incluye el cableado de red y cualquier otro componente tecnológico que forme parte del sistema.
    
-2. **Software**: Es el conjunto de programas, aplicaciones y herramientas digitales que se utilizan para procesar, gestionar y manipular datos en un sistema de información. Representa la parte intangible del sistema, pero es esencial para su funcionamiento.
+2. **Software**: es el conjunto de programas, aplicaciones y herramientas digitales que se utilizan para procesar, gestionar y manipular datos en un sistema de información. Representa la parte intangible del sistema, pero es esencial para su funcionamiento.
 
-3. **Datos**: Es toda la información con la que opera una empresa u organización. Representan la materia prima del sistema y pueden ser números, textos, imágenes o cualquier tipo de información que se procesa.
+3. **Datos**: es toda la información con la que opera una empresa u organización. Representan la materia prima del sistema y pueden ser números, textos, imágenes o cualquier tipo de información que se procesa.
 
-4. **Procesos**: Son todas las acciones que realiza la empresa con respecto al manejo de información. Estas acciones están estandarizadas y organizadas para cumplir su objetivo de manera eficiente.
+4. **Procesos**: son todas las acciones que realiza la empresa con respecto al manejo de información. Estas acciones están estandarizadas y organizadas para cumplir su objetivo de manera eficiente.
 
-5. **Personas**: Son los usuarios que interactúan con el sistema de información, desde los empleados que ingresan datos hasta los gerentes que toman decisiones basadas en la información.
+5. **Personas**: son los usuarios que interactúan con el sistema de información, desde los empleados que ingresan datos hasta los gerentes que toman decisiones basadas en la información.
 
 ---
 
