@@ -107,11 +107,11 @@ Los sistemas de información están compuestos por varios elementos clave:
 
 Un sistema de información se estructura en varias capas:
 
-1. **Capa de Entrada**: Donde se recopilan los datos crudos.
-2. **Capa de Procesamiento**: Donde los datos se transforman en información útil.
-3. **Capa de Almacenamiento**: Donde se guardan los datos procesados.
-4. **Capa de Salida**: Donde la información se presenta a los usuarios.
-5. **Capa de Retroalimentación**: Permite ajustar y mejorar el sistema basándose en los resultados obtenidos.
+1. **Capa de Entrada**: es la primera etapa del sistema de información y se encarga de recopilar los datos crudos desde diversas fuentes. Esta capa es fundamental, ya que sin datos, el sistema no puede funcionar.
+2. **Capa de Procesamiento**: es el núcleo del sistema de información. Aquí es donde los datos crudos se transforman en información útil mediante diversas operaciones.
+3. **Capa de Almacenamiento**: es donde se guardan los datos procesados para su uso futuro. Esta capa es esencial para garantizar que la información esté disponible cuando sea necesaria.
+4. **Capa de Salida**: es la etapa en la que la información procesada se presenta a los usuarios finales. Esta capa es crucial porque es donde los usuarios interactúan con el sistema y toman decisiones basadas en la información proporcionada.
+5. **Capa de Retroalimentación**: es la etapa final y permite ajustar y mejorar el sistema basándose en los resultados obtenidos. Esta capa cierra el ciclo del sistema, asegurando que se mantenga actualizado y eficiente.
 
 ---
 
@@ -132,14 +132,16 @@ Las principales funciones de un sistema de información son:
 
 Los sistemas de información se clasifican en:
 
-1. **Sistemas de Procesamiento de Transacciones (SPT)**: Gestionan las transacciones diarias de una organización.
-2. **Sistemas de Información Gerencial (SIG)**: Proporcionan información para la toma de decisiones a nivel gerencial.
-3. **Sistemas de Apoyo a la Toma de Decisiones (SATD)**: Ayudan a los gerentes a tomar decisiones complejas.
-4. **Sistemas de Información Expertos (SIE)**: Utilizan inteligencia artificial para resolver problemas específicos.
-5. **Sistemas de Información para la Gestión del Conocimiento (SIGC)**: Gestionan y comparten el conocimiento dentro de una organización.
+1. **Sistemas de Procesamiento de Transacciones (SPT)**: son un tipo de sistema de información diseñado para gestionar y procesar las transacciones diarias que ocurren en una organización. Estas transacciones son operaciones rutinarias y recurrentes, como ventas, compras, pagos o reservas, que forman parte del funcionamiento cotidiano de cualquier empresa.
 
----
+El objetivo principal de un SPT es garantizar que estas transacciones se procesen de manera rápida, precisa y confiable, manteniendo la integridad y consistencia de los datos en todo momento. Esto no solo agiliza los procesos operativos, sino que también proporciona una base sólida para la toma de decisiones y la gestión eficiente de los recursos.
 
-## Conclusión
+2. **Sistemas de Información Gerencial (SIG)**: son un tipo de sistema de información diseñado específicamente para apoyar la toma de decisiones en los niveles gerenciales y estratégicos de una organización. A diferencia de los Sistemas de Procesamiento de Transacciones (SPT), que se centran en operaciones rutinarias y transaccionales, los SIG están orientados a proporcionar información resumida, analítica y estratégica. Esta información permite a los gerentes planificar, controlar y tomar decisiones informadas que impacten positivamente en el rendimiento y la dirección de la organización.
 
-El procesamiento de datos y los sistemas de información son fundamentales en el mundo moderno. A través de la transformación de datos crudos en información útil, las organizaciones pueden tomar decisiones más informadas, optimizar sus procesos y mejorar su rendimiento. Comprender estos conceptos es esencial para cualquier profesional que trabaje en el ámbito de la tecnología y la gestión de la información.
+3. **Sistemas de Apoyo a la Toma de Decisiones (SATD)**: también se les conocen como DSS (por sus siglas en inglés, Decision Support Systems), son un tipo de sistema de información diseñado para ayudar a los gerentes y tomadores de decisiones a resolver problemas complejos y tomar decisiones estratégicas. A diferencia de los Sistemas de Información Gerencial (SIG), que proporcionan informes estructurados y resumidos, los SATD se centran en ofrecer herramientas interactivas y flexibles que permiten a los usuarios analizar datos, evaluar diferentes escenarios y tomar decisiones basadas en información detallada y en tiempo real.
+
+4. **Sistemas de Información Expertos (SIE)**: también conocidos como Sistemas Expertos o ES (por sus siglas en inglés, Expert Systems), son un tipo de sistema de información diseñado para emular la toma de decisiones de un experto humano en un área específica. Estos sistemas utilizan técnicas de inteligencia artificial (IA), como reglas lógicas, bases de conocimiento y algoritmos de inferencia, para resolver problemas complejos que normalmente requerirían la intervención de un especialista.
+
+Los SIE son especialmente útiles en situaciones donde se necesita un alto nivel de conocimiento técnico o experiencia, y donde la disponibilidad de expertos humanos puede ser limitada o costosa.
+
+5. **Sistemas de Información para la Gestión del Conocimiento (SIGC)**: son herramientas esenciales para las organizaciones modernas que buscan aprovechar al máximo su capital intelectual. Al combinar tecnología, procesos y cultura organizacional, estos sistemas permiten transformar el conocimiento en un recurso estratégico que impulsa la innovación, la eficiencia y la competitividad. Sin embargo, su éxito depende de una implementación cuidadosa, una gestión adecuada y la participación activa de todos los miembros de la organización.
