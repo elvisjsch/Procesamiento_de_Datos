@@ -61,16 +61,19 @@ Estos diagramas son ampliamente utilizados en el análisis y diseño de sistemas
 - **🗄️ Almacenes de Datos:** Representados por líneas paralelas o rectángulos abiertos, estos simbolizan los lugares donde los datos son almacenados temporal o permanentemente dentro del sistema.
 
 #### Niveles del DFD
-1. **🌐 Nivel 0 (Diagrama de Contexto):** Proporciona una visión global del sistema, mostrando cómo interactúa con entidades externas.
-2. **📂 Nivel 1 (Diagrama de Nivel Superior):** Descompone el sistema en sus principales subsistemas o procesos clave.
-3. **🔍 Nivel 2 (Diagrama de Detalle):** Profundiza en los procesos identificados en el Nivel 1, descomponiéndolos en subprocesos más específicos.
-4. **📑 Nivel 3 (Niveles Superiores):** Proporciona un detalle aún mayor sobre los subprocesos específicos (menos común).
+
+1. **🌐 Nivel 0 (Diagrama de Contexto):** también conocido como diagrama de contexto , es el nivel más general y abstracto del DFD. Este diagrama proporciona una visión global del sistema, mostrando cómo interactúa con entidades externas sin entrar en detalles internos. En este nivel, el sistema se representa como un único proceso central, que encapsula toda la funcionalidad del sistema, y se conecta con las entidades externas (fuentes o destinos de datos) a través de flujos de datos.
+2. **📂 Nivel 1 (Diagrama de Nivel Superior):** en este nivel el sistema se descompone en sus principales subsistemas o procesos clave. Este nivel proporciona una visión más detallada del flujo de datos dentro del sistema, identificando los procesos principales, los flujos de datos entre ellos y las entidades externas involucradas. Este explica cada proceso principal se representa como un nodo independiente, y se detallan las interacciones entre estos procesos, así como su conexión con las entidades externas y los almacenes de datos.
+3. **🔍 Nivel 2 (Diagrama de Detalle):** es el nivel que profundiza aún más en los procesos identificados en el Nivel 1, descomponiendo los en subprocesos más específicos. Este nivel permite visualizar el flujo de datos en mayor detalle y es útil para validar el diseño del sistema con los usuarios finales. Al presentar un nivel de detalle más específico, los usuarios pueden entender mejor cómo funcionará el sistema en la práctica y proporcionar retroalimentación sobre los procesos que les afectan directamente. Esto asegura que el sistema esté alineado con las necesidades y expectativas de los usuarios, lo que es crucial para el éxito del proyecto.
+4. **📑 Nivel 3 (Niveles Superiores):** en algunos casos, cuando el sistema es particularmente complejo, se pueden crear niveles adicionales para proporcionar un detalle aún mayor sobre los subprocesos específicos. Sin embargo, estos niveles suelen ser menos comunes debido a que pueden volverse demasiado técnicos y difíciles de interpretar para los usuarios no especializados.
 
 ---
 
 ### 📚 Diccionario de Datos (DD)
 
-El **Diccionario de Datos (DD)** es una herramienta fundamental en el Análisis Estructurado de Sistemas que actúa como un repositorio centralizado para almacenar, organizar y documentar toda la información relacionada con los datos utilizados en un sistema. Su principal objetivo es proporcionar una descripción clara, precisa y detallada de cada elemento de datos, asegurando que todos los involucrados en el desarrollo y uso del sistema compartan una comprensión común y consistente de los mismos.
+El **Diccionario de Datos (DD)** es una herramienta fundamental en el Análisis Estructurado de Sistemas que actúa como un repositorio centralizado para almacenar, organizar y documentar toda la información relacionada con los datos utilizados en un sistema. Su principal objetivo es proporcionar una descripción clara, precisa y detallada de cada elemento de datos, asegurando que todos los involucrados en el desarrollo y uso del sistema (analistas, desarrolladores, diseñadores y usuarios finales) compartan una comprensión común y consistente de los mismos.
+
+Estos sirve como una fuente de referencia confiable durante todo el ciclo de vida del sistema. Desde la fase de análisis y diseño hasta la implementación y el mantenimiento, el Diccionario de Datos proporciona información detallada sobre la estructura, el significado y las relaciones de los datos. Esto es especialmente útil cuando se realizan cambios en el sistema o cuando se integra con otros sistemas, ya que garantiza que todos los involucrados tengan acceso a la misma información actualizada y precisa.
 
 #### Estructura del DD
 - **Nombre del dato**
@@ -86,7 +89,9 @@ El **Diccionario de Datos (DD)** es una herramienta fundamental en el Análisis 
 
 ### 📝 Diccionario de Procesos (DP)
 
-El **Diccionario de Procesos (DP)** es una herramienta en el Análisis Estructurado de Sistemas que se utiliza para documentar y describir de manera detallada cómo se realizan los procesos dentro de un sistema. Su objetivo principal es proporcionar una comprensión clara y precisa de las actividades, reglas de negocio y lógica involucrada en cada proceso, lo que facilita su análisis, diseño, implementación y mantenimiento.
+El **Diccionario de Procesos (DP)** también es una herramienta en el Análisis Estructurado de Sistemas que se utiliza para documentar y describir de manera detallada cómo se realizan los procesos dentro de un sistema. Su objetivo principal es proporcionar una comprensión clara y precisa de las actividades, reglas de negocio y lógica involucrada en cada proceso, lo que facilita su análisis, diseño, implementación y mantenimiento.
+
+Estos especialmente útil en sistemas complejos, donde es necesario desglosar los procesos en tareas más pequeñas y específicas para entender su funcionamiento y asegurar que cumplan con los requisitos del negocio.
 
 #### Estructura del DP
 - **Nombre del proceso**
@@ -103,21 +108,22 @@ El **Diccionario de Procesos (DP)** es una herramienta en el Análisis Estructur
 Las **herramientas CASE (Computer-Aided Software Engineering, o Ingeniería de Software Asistida por Computadora)** son aplicaciones de software diseñadas para apoyar y automatizar diversas actividades en el ciclo de vida del desarrollo de sistemas. Estas herramientas ayudan a los analistas, diseñadores y desarrolladores a crear, gestionar y mantener sistemas de software de manera más eficiente y efectiva.
 
 #### Tipos de Herramientas CASE
-1. **🔝 Herramientas CASE de Alto Nivel (Upper CASE):** Se centran en las etapas iniciales del ciclo de vida del software.
-   - Ejemplos: Enterprise Architect, IBM Rational Rose, Microsoft Visio.
-2. **🔧 Herramientas CASE de Bajo Nivel (Lower CASE):** Se enfocan en las fases finales del desarrollo de software.
-   - Ejemplos: Eclipse, MATLAB, JUnit.
-3. **🔄 Herramientas CASE Integradas (I-CASE):** Cubren todo el ciclo de vida del software.
-   - Ejemplos: EasyCASE, PowerDesigner, Oracle Designer.
-4. **📅 Herramientas CASE para Gestión de Proyectos:** Ayudan en la planificación y seguimiento de proyectos.
-   - Ejemplos: Microsoft Project, Asana, Jira.
-5. **🧪 Herramientas CASE para Pruebas y Calidad:** Apoyan las actividades de pruebas y aseguramiento de la calidad.
-   - Ejemplos: Selenium, LoadRunner, SonarQube.
-6. **📂 Herramientas CASE para Gestión de Configuración:** Enfocadas en el control de versiones y gestión de cambios.
-   - Ejemplos: Git, Mercurial, Jenkins.
-7. **📄 Herramientas CASE para Documentación:** Facilitan la creación y mantenimiento de la documentación.
-   - Ejemplos: Doxygen, Sphinx, Confluence.
 
+Las Herramientas CASE se clasifican en diferentes tipos según su enfoque, funcionalidad y la etapa del ciclo de vida del software en la que se utilizan. A continuación, se describen los principales tipos de herramientas CASE:
+
+1. **🔝 Herramientas CASE de Alto Nivel (Upper CASE):** estas herramientas se centran en las etapas iniciales del ciclo de vida del software, como el análisis de requisitos y el diseño del sistema. Su objetivo es ayudar a los analistas y diseñadores a modelar y documentar los requisitos del sistema de manera clara y precisa.
+   - Ejemplos: Enterprise Architect, IBM Rational Rose, Microsoft Visio.
+2. **🔧 Herramientas CASE de Bajo Nivel (Lower CASE):** se enfocan en las fases finales o inferiores del ciclo de vida del desarrollo de software, como la construcción, implementación y generación de código. Estas herramientas están diseñadas para automatizar tareas técnicas específicas, como la generación de código fuente, la creación de programas de detección de errores, la depuración y la optimización del software. Su objetivo principal es reducir el esfuerzo manual en las etapas de implementación y mantenimiento, asegurando que el software sea eficiente, consistente y de alta calidad.
+   - Ejemplos: Eclipse, MATLAB, JUnit.
+3. **🔄 Herramientas CASE Integradas (I-CASE):** estas herramientas cubren todo el ciclo de vida del software, desde el análisis y diseño hasta la implementación y el mantenimiento. Proporcionan un entorno integrado que conecta las diferentes etapas del desarrollo. A diferencia de las herramientas CASE de Alto Nivel (Upper CASE) o de Bajo Nivel (Lower CASE), que se enfocan en fases específicas del desarrollo, las herramientas I-CASE proporcionan un entorno integrado que conecta y sincroniza todas las etapas del proceso de desarrollo de software. Por ello, son mas complicadas de usar, pero permiten centrar todo el desarrollo del sistema en una solo aplicación.
+   - Ejemplos: EasyCASE, PowerDesigner, Oracle Designer.
+4. **📅 Herramientas CASE para Gestión de Proyectos:** estas herramientas se centran en la planificación, seguimiento y control de proyectos de software. Su objetivo es ayudar a los gerentes de proyecto a organizar y gestionar los recursos, tareas y plazos. Ademas, estas herramientas reducen riesgos y optimizan el uso de recursos. Su uso es especialmente importante en proyectos complejos o de gran escala, donde la coordinación y el control son críticos para cumplir con los objetivos del negocio y las expectativas de los stakeholders.
+   - Ejemplos: Microsoft Project, Asana, Jira.
+5. **🧪 Herramientas CASE para Pruebas y Calidad:** estas herramientas están diseñadas para apoyar las actividades de pruebas y aseguramiento de la calidad del software. Su objetivo es garantizar que el sistema cumpla con los requisitos y estándares de calidad. Estas mejoran la eficiencia, reducen costos y aumentan la confianza en el producto final. Su uso es fundamental en proyectos de desarrollo de software, especialmente en entornos ágiles o de integración continua, donde la calidad y la rapidez son críticas para el éxito.
+   - Ejemplos: Selenium, LoadRunner, SonarQube.
+6. **📂 Herramientas CASE para Gestión de Configuración:** estas herramientas se enfocan en el control de versiones y la gestión de cambios en el código y la documentación. Su objetivo es mantener un registro preciso de las modificaciones realizadas en el software. En un entorno donde la complejidad y la colaboración son críticas, estas herramientas se han convertido en aliados indispensables para los equipos de desarrollo de software.
+   - Ejemplos: Git, Mercurial, Jenkins.
+7. **📄 Herramientas CASE para Documentación:**     Estas herramientas facilitan la creación y mantenimiento de la documentación técnica y de usuario. Su objetivo es asegurar que la documentación esté actualizada y sea accesible. Estas herramientas permiten a los equipos de desarrollo generar documentación de manera eficiente, asegurando que esté actualizada, organizada y accesible para todos los stakeholders involucrados en el proyecto. La documentación es un componente crítico en el ciclo de vida del software, ya que proporciona información esencial sobre el diseño, funcionalidades, requisitos y uso del sistema
 ---
 
 ## 🗃️ Modelado de Datos
