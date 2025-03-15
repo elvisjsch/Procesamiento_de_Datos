@@ -2,7 +2,7 @@
 
 En este espacio, nos adentraremos en mundo de la gestión, transformación y análisis de datos, un pilar fundamental en el desarrollo de sistemas y tecnologías modernas. A lo largo de esta asignatura, exploraremos los principios, técnicas y herramientas que permiten convertir datos en información valiosa para la toma de decisiones y la creación de soluciones innovadoras. El programa está estructurado en cuatro unidades que abarcan desde los fundamentos del procesamiento de datos hasta el desarrollo de sistemas complejos y de tiempo real. 
 
-En la Unidad I, comenzaremos con los **Principios de Procesamiento de Datos**, donde aprenderemos sobre estructuras de datos, sistemas de información y los procesos que permiten transformar datos en conocimiento. 
+En la Unidad I, comenzaremos con los [Principios de Procesamiento de Datos] (https://github.com/elvisjsch/Procesamiento_de_Datos/blob/main/Unidad%20I/Unidad%20I.md), donde aprenderemos sobre estructuras de datos, sistemas de información y los procesos que permiten transformar datos en conocimiento. 
 
 En la Unidad II, nos enfocaremos en la Programación Estructurada, abordando conceptos clave como el análisis estructurado de sistemas, algoritmos y herramientas que facilitan el desarrollo de software eficiente y organizado. 
 
